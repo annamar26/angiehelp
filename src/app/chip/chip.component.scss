@@ -1,0 +1,32 @@
+$yellow: #FFCE00;
+$pink: #FC9BB3;
+$black: #000000;
+$white: #FFFFFF;
+$orange: #FF4713;
+$green: #008B5C;
+$gray: #EFEFEF;
+
+.mat-chip{
+    display: flex;
+    justify-content: center;
+     border:  solid 3px $orange;
+     min-width: 40%; 
+  
+     font-size: 24px;
+}
+mat-chip{
+    background-color: $white;
+    min-width: 30%;
+   
+}
+.mat-standard-chip{
+    min-width: 37vw;
+    margin: 2vw;
+    min-height: 5.5vh;
+   
+}
+
+.mat-standard-chip:focus{
+    opacity: 1;
+    background-color: #FF4713;
+}

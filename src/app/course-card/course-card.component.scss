@@ -1,0 +1,27 @@
+$yellow: #FFCE00;
+$pink: #FC9BB3;
+$black: #000000;
+$white: #FFFFFF;
+$orange: #FF4713;
+$green: #008B5C;
+$gray: #EFEFEF;
+
+#card{
+    box-sizing: border-box;
+    border-radius: 10%;
+    margin-top: 3vh;
+    background-color: $yellow;
+    height: 40vh;
+    width: 100%;
+
+
+    
+        img{
+            border-radius: 10%  10% 0% 0%;
+            width: 100%;
+        }
+        figcaption{
+            font-size: 24px;
+        }
+    
+}

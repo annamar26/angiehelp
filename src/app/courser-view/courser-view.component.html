@@ -1,0 +1,25 @@
+<div id="container">
+    <section id="level-box">
+        <h2>Your current level</h2>
+        <h1>Junior Investor</h1>
+    </section>
+
+
+    <section id="search-box">
+        <input matInput type="search" placeholder="   Search"><i class="material-icons">search</i>
+    </section>
+    <div id="courses">
+        <h3>Courses</h3>
+        <div id="chip-list">
+            <mat-chip-list>
+                <app-chip *ngFor="let chip of chips" [title]=chip></app-chip>
+            </mat-chip-list>
+        </div>
+
+    </div>
+
+ <div id="scrolling-courses">
+     <app-course-card></app-course-card>
+ </div>
+
+</div>
